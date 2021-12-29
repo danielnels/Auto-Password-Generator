@@ -1,12 +1,12 @@
 
 // Assignment Code
-var generateBtn = document.querySelector("#generate");
+const generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-// Creation of Varaible Array 
+// Creation of Variable Array's 
 
 const lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 const upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
@@ -34,11 +34,11 @@ function generatePassword() {
     var affirmSymbol = confirm("Do you want to include symbols?");
 
       if (!affirmLower && !affirmUpper && !affirmNumber && !affirmSymbol) {
-        alert("You must choose a specification");
+        alert("You must Select at least one option");
     
     } 
 
-// determines type of password criteria depending on the user's choices
+// determines type of password criteria depending on the user's Selection
       var userChoice = []
       
     if (affirmSymbol) {
