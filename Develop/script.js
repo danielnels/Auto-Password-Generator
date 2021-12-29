@@ -6,7 +6,7 @@ var generateBtn = document.querySelector("#generate");
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-
+// Creation of Varaible Array 
 
 const lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 const upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
@@ -19,11 +19,11 @@ var affirmUpper;
 var affirmNumber;
 var affirmSymbol;
 
-// start prompts for pw criteria
+// Generate prompts for the password criteria
 function generatePassword() {
   var passwordLength = prompt("How long do you want your password to be (between 8-128 characters)?");
 
-  while(passwordLength < 8 || passwordLength > 128) {
+  if(passwordLength < 8 || passwordLength > 128) {
       alert("Password must be between 8-128 characaters.");
       var passwordLength = prompt("How long do you want your password to be (between 8-128 characters)?");
       } 
@@ -38,7 +38,7 @@ function generatePassword() {
     
     } 
 
-// determines output of criteria depending on user's choices
+// determines type of password criteria depending on the user's choices
       var userChoice = []
       
     if (affirmSymbol) {
@@ -61,7 +61,7 @@ function generatePassword() {
 
       var newPassword = ""
    
-// uses info entered to create and show new pw 
+// uses the information selected to create and dispaly a created password
       for (var i = 0; i < passwordLength; i++) {
         newPassword = newPassword + userChoice[Math.floor(Math.random() * userChoice.length)];
         console.log(newPassword)
@@ -69,7 +69,7 @@ function generatePassword() {
       return newPassword;
 }
 
-// write password to the #password input
+// writes the created password to the #password id and displays it on the browser
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
