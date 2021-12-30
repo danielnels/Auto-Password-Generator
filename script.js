@@ -13,11 +13,11 @@ const upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "
 const number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 const symbol = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", " < ", "=", " > ", " ? ", "@", "[", "^", "`", "{", "|", "}", "~"];
 
-const passwordLength = "";
-const affrimLower;
-const affirmUpper;
-const affirmNumber;
-const affirmSymbol;
+var passwordLength = "";
+var affrimLower;
+var affirmUpper;
+var affirmNumber;
+var affirmSymbol;
 
 // Generate prompts for the password criteria
 function generatePassword() {
