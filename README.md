@@ -39,4 +39,4 @@ The following image shows the web application's appearance :
 ![image](https://user-images.githubusercontent.com/94213022/147720598-efe2f5b0-5ec6-4b23-bb4d-dcadcd7263ee.png)
 
 ## Link to Deployed Application: 
-https://danielnels.github.io/Password-Generator/
+
