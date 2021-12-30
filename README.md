@@ -1,6 +1,6 @@
 # Password-Generator
 Automated password generator using Java Script 
-## Your Task
+## This Weeks Task
 
 This week’s homework requires me to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that I write. It mush have a clean and polished, responsive user interface that adapts to multiple screen sizes.
 
