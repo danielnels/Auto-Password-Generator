@@ -4,7 +4,7 @@ Automated password generator using Java Script
 
 This week’s homework requires me to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that I write. It mush have a clean and polished, responsive user interface that adapts to multiple screen sizes.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+The password can include special characters. 
 
 ## User Story
 
@@ -36,3 +36,5 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Mock-Up
 The following image shows the web application's appearance :
+![image](https://user-images.githubusercontent.com/94213022/147720598-efe2f5b0-5ec6-4b23-bb4d-dcadcd7263ee.png)
+
